@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Component Tests">
+    <listeners>
+        <listener class-name="com.unifydots.reusablecomponents.TestResultListener"/>
+
+    </listeners>
+    <test name="Unify Dots Tests" preserve-order="false" parallel="false" thread-count="2">
+
+        <classes>
+            <class name="com.unifydots.tests.FirstTest"></class>
+            <class name="com.unifydots.tests.SecondTest"></class>
+
+        </classes>
+
+
+    </test>
+</suite>
